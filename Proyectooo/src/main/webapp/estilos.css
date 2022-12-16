@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+
+}
+
+body{
+    background-image: url(images/opcion1.jpg);
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background-color: cadetblue;
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: transparent;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    color: white;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    color: white;
+
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+#html{
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: white;
+}
+
+.div {
+    display: block;
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+.contenido {
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+
+    color: rgba(255, 255, 255, 0.548);
+    width: auto;
+    display: block;
+}
